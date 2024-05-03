@@ -61,5 +61,9 @@ Void addnode()
 			START = newNode;
 		}
 	}
+}
+
+bool search(int rollNo, Node **previous, Node **current)
+{
 
 }
