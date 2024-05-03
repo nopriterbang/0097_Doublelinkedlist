@@ -32,8 +32,11 @@ Void addnode()
 			START->prev = newNode;
 		}
 		newNode->prev = NULL;
-
+		START = newNode;
 	}
-
+	else
+	{
+		Node* current = START;
+	}
 
 }
