@@ -10,3 +10,8 @@ struct Node
 };
 
 Node* START = NULL;
+
+Void addnode()
+{
+
+}
