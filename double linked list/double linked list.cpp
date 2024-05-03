@@ -41,7 +41,8 @@ Void addnode()
 
 		while (current != NULL && current->noMhs < newNode->noMhs)
 		{
-		
+			previous = current;
+			current = current->next;
 		}
 	}
 
